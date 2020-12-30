@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="dynamicalFlowView" >
+        <attr name="labelState" format="enum">
+            <enum name="FIXED_SIZE"  value="0"/>
+            <enum name="AUTO_SIZE" value="1"/>
+
+        </attr>
+        <attr name="labelHeight" format="dimension" />
+        <attr name="labelWidth" format="dimension" />
+        <!---->
+        <attr name="labelBackGroud" format="reference|color" />
+        <attr name="labelSelectedBackGroud"  format="reference|color"/>
+        <attr name="labelTextColor" format="color" />
+        <attr name="labelSelectedTextColor" format="color" />
+        <attr name="labelWidthSpace"  format="dimension"/>
+        <attr name="labelHeightSpace"  format="dimension"/>
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="labelTextPaddingLeft" format="dimension" />
+        <attr name="labelTextPaddingRight" format="dimension" />
+        <attr name="labelTextPaddingTop" format="dimension" />
+        <attr name="labelTextPaddingBottom" format="dimension" />
+
+        <attr name="labelTextMarginLeft" format="dimension" />
+        <attr name="labelTextMarginRight" format="dimension" />
+        <attr name="labelTextMarginTop" format="dimension" />
+        <attr name="labelTextMarginBottom" format="dimension" />
+
+    </declare-styleable>
+  <!--style 是直接赋值   styleable 是定义属性-->
+</resources>
