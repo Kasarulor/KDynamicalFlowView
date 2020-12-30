@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#FDA639</color>
+    <color name="colorPrimaryDark">#FDA639</color>
+    <color name="colorAccent">#FDA639</color>
+    <color name="themeColor">#FDA639</color>
+    <color name="red">#ff0e34</color>
+    <color name="d6">#FFFFFF</color>
+    <color name="bg">#f8f8f8</color>
+    <color  name="black1d">#1d1d1d</color>
+    <color  name="black3">#333333</color>
+    <color name="g6">#666666</color>
+    <color name="n9">#999999</color>
+    <color name="D6">#DDDDDD</color>
+    <color name="E6">#EEEEEE</color>
+    <color name="d3f">#292D3F</color>
+    <color name="blue">#2975FF</color>
 </resources>

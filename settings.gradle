@@ -1,0 +1,3 @@
+include ':dynamicalFlowView'
+include ':app'
+rootProject.name = "DynamicalFlowView"
