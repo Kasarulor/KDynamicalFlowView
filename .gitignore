@@ -1,15 +1,5 @@
 *.iml
 .gradle
-.idea
-settings.gradle
-local.properties
-gradle.properties
-/app/build
-/app/src/androidTest
-/app/src/test
-/dynamicalFlowView/.gitignore
-/dynamicalFlowView/src/androidTest
-/dynamicalFlowView/src/test
 /local.properties
 /.idea/caches
 /.idea/libraries

@@ -1,6 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.Kasarulor'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
