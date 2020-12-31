@@ -8,15 +8,18 @@
 
     <com.kyli.dynamicalflowview.DynamicalFlowView
         android:id="@+id/label"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:labelTextColor="@color/black3"
         app:labelTextSize="12sp"
+        app:labelState="FIXED_SIZE"
+        app:labelHeight="25dp"
+        app:labelWidth="75dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:labelSelectedBackGroud="@color/themeColor"
         app:labelSelectedTextColor="@android:color/white"
         app:labelHeightSpace="10dp"
@@ -27,5 +30,6 @@
         app:labelTextPaddingTop="2dp"
         app:labelTextPaddingBottom="2dp"
         android:background="@android:color/white" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

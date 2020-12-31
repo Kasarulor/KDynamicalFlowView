@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         List<String>  strings=new ArrayList<>();
         strings.add("hellow");
         strings.add("world");
+        strings.add("world");      strings.add("world");
+        strings.add("world");
+        strings.add("world");
+        strings.add("world");
+
         dynamicalFlowView.setLabelData(strings);
     }
 }
