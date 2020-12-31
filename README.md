@@ -13,8 +13,8 @@
                     }
                 
                 }
-             **implementation 'com.github.Kasarulor:KDynamicalFlowView:1.0.6' **
-             特别说明基于1.0.6  之前的版本都会出现  resolve fail      
+             **implementation 'com.github.Kasarulor:KDynamicalFlowView:1.0.7' **
+             特别说明基于1.0.7  之前的版本都会出现  resolve fail      
              这里也特别记录下这个坑  因为我再上传github的时候忽略掉了 gradle.properties   因此导致编译包的时候出现了 没找到这个文件 
 ####   支持单选和多选
         #####特别说明下  单选和多选模式切换的时候  不会清空所有的已选择状态!  但是多选切换单选会保留最后一条  你可以选择调用 方法getSelectedIndex() **
