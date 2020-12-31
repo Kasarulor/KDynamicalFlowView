@@ -11,7 +11,7 @@
                         jcenter()
                      **   maven { url 'https://jitpack.io' }**
                     }
-                
+                 
                 }
              **implementation 'com.github.Kasarulor:KDynamicalFlowView:1.0.7' **
              特别说明基于1.0.7  之前的版本都会出现  resolve fail      
