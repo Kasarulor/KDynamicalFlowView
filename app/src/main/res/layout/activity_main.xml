@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/themeColor"
     tools:context=".MainActivity">
 
     <com.kyli.dynamicalflowview.DynamicalFlowView
@@ -13,7 +14,10 @@
         android:layout_marginTop="10dp"
         app:labelTextColor="@color/black3"
         app:labelTextSize="12sp"
+        android:layout_marginStart="20dp"
         app:labelState="FIXED_SIZE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:labelHeight="25dp"
         app:labelWidth="75dp"
         android:paddingTop="10dp"

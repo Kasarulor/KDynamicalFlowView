@@ -204,8 +204,8 @@ public class DynamicalFlowView extends ViewGroup implements View.OnClickListener
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
 
-        int startLeftPoint = l+getPaddingLeft();/*起点*/
-        int startTopPoint = t+getPaddingTop();
+        int startLeftPoint = getPaddingLeft();/*起点*/
+        int startTopPoint = getPaddingTop();
         /*摆放位置*/
         int lineWidth = 0;
         int lineHeight = 0;
